@@ -2,11 +2,11 @@ import os
 
 class Config(object):
     
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "5838279749:AAF2NNAVAN-rL9iEb_kwVNigU6IJcJomK3I")
     
-    API_ID = int(os.environ.get("API_ID", 12345))
+    API_ID = int(os.environ.get("API_ID", 7978114))
     
-    API_HASH = os.environ.get("API_HASH")
+    API_HASH = os.environ.get("API_HASH", "5f7839feeba133497f24acfd005ef2ec")
     
     DOWNLOAD_LOCATION = "./DOWNLOADS"
     
@@ -24,10 +24,10 @@ class Config(object):
     
     PROCESS_MAX_TIMEOUT = 3600
     
-    OWNER_ID = int(os.environ.get("OWNER_ID", ""))
+    OWNER_ID = int(os.environ.get("OWNER_ID", "1760280598"))
 
-    SESSION_NAME = "UploadLinkToFileBot"
+    SESSION_NAME = "UrlUoloaderBot"
     
-    DATABASE_URL = os.environ.get("DATABASE_URL", "")
+    DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://OCmm:505953Oc@cluster0.rwt66hd.mongodb.net/?retryWrites=true&w=majority")
 
     MAX_RESULTS = "50"
